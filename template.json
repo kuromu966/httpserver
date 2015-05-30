@@ -1,0 +1,42 @@
+{
+	"index": [
+		{
+			"name": "sample",
+			"path": "tpl_sample/sample.html"
+		},
+		{
+			"name": "notfound",
+			"path": "tpl_error/error.html"
+		},
+		{
+			"name": "error",
+			"path": "tpl_error/error.html"
+		}
+	],
+	"contents": [
+		{
+			"name": "index",
+			"uri": "",
+			"template": "sample",
+			"content": "tpl_sample/index_content.json"
+		},
+		{
+			"name": "sample",
+			"uri": "sample",
+			"template": "sample",
+			"content": "tpl_sample/sample_content.json"
+		},
+		{
+			"name": "sys_notfound",
+			"uri": "",
+			"template": "notfound",
+			"content": "tpl_error/notfound_content.json"
+		},
+		{
+			"name": "sys_error",
+			"uri": "",
+			"template": "error",
+			"content": "tpl_error/error_content.json"
+		}
+	]
+}
